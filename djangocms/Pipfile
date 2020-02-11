@@ -1,0 +1,33 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+djangocms-installer = "*"
+
+[packages]
+django-cms = "*"
+djangocms-admin-style = "*"
+django-treebeard = "*"
+djangocms-text-ckeditor = "*"
+djangocms-link = "*"
+djangocms-style = "*"
+djangocms-googlemap = "*"
+djangocms-snippet = "*"
+djangocms-video = "*"
+djangocms-file = "*"
+djangocms-picture = "*"
+djangocms-bootstrap4 = "*"
+easy-thumbnails = "*"
+django-filer = "*"
+django-classy-tags = "*"
+django-sekizai = "*"
+django-mptt = "*"
+html5lib = "*"
+pytz = "*"
+Django = "*"
+Pillow = "*"
+
+[requires]
+python_version = "3.7"
