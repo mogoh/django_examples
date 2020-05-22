@@ -5,5 +5,7 @@ pipenv install
 pipenv shell
 python manage.py migrate
 python manage.py createsuperuser
-python manage.py runserver 8080
+python manage.py runserver localhost:8000
 ~~~
+
+visit: http://localhost:8000/admin/

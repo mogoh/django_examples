@@ -7,6 +7,8 @@ verify_ssl = true
 
 [packages]
 django = "==2.*"
-django-image-cropping = "*"
-django-autocomplete-light = "*"
+django-autocomplete-light = "==3.5.0"
 easy-thumbnails = "*"
+#django-image-cropping = "*"
+django-image-cropping = {ref = "cleanup_and_minify", git = "https://github.com/anrie/django-image-cropping.git", editable = true}
+asgiref = "*"
