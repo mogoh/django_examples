@@ -97,6 +97,10 @@ STATICFILES_DIRS = (
 SITE_ID = 1
 
 
+JQUERY_URL = 'admin/js/vendor/jquery/jquery.js'
+IMAGE_CROPPING_JQUERY_URL = JQUERY_URL
+
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -140,7 +144,11 @@ MIDDLEWARE = [
 ]
 
 INSTALLED_APPS = [
+    'dal',
+    'dal_select2',
+    'image_cropping',
     'djangocms_admin_style',
+
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -179,11 +187,9 @@ INSTALLED_APPS = [
     'djangocms_snippet',
     'djangocms_googlemap',
     'djangocms_video',
+
     'cms_ic_dal',
 
-    'dal',
-    'dal_select2',
-    'image_cropping',
     'autocomplete_light',
     'image_cropping_example',
     'image_cropping_autocomplete_light',

@@ -31,7 +31,7 @@ pytz = "*"
 django = "==2.*"
 Pillow = ">=3.0"
 
-django-autocomplete-light = "*"
+django-autocomplete-light = "==3.5.0"
 
 #django-image-cropping = "*"
 django-image-cropping = {ref = "cleanup_and_minify", git = "https://github.com/anrie/django-image-cropping.git", editable = true}
