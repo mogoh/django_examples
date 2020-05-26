@@ -236,7 +236,7 @@ DATABASES = {
         'CONN_MAX_AGE': 0,
         'ENGINE': 'django.db.backends.sqlite3',
         'HOST': 'localhost',
-        'NAME': 'db.sqlite',
+        'NAME': 'db.sqlite3',
         'PASSWORD': '',
         'PORT': '',
         'USER': ''
