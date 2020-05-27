@@ -140,3 +140,7 @@ THUMBNAIL_PROCESSORS = (
 
 MAGE_CROPPING_BACKEND = 'image_cropping.backends.easy_thumbs.EasyThumbnailsBackend'
 IMAGE_CROPPING_BACKEND_PARAMS = {}
+
+
+# This causes an error:
+IMAGE_CROPPING_JQUERY_URL = 'admin/js/vendor/jquery/jquery.js'
